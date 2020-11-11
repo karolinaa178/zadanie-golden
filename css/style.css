@@ -7,11 +7,13 @@ body {
   margin: 0;
   font-size: 16px;
   line-height: 1.7;
+  font-family: "PT Serif", serif;
 }
 
 .container {
   max-width: 1140px;
   margin: 0 auto;
+  padding: 72px 0;
 }
 
 .section-title {
@@ -19,7 +21,8 @@ body {
   text-align: center;
   text-transform: uppercase;
   margin: 0;
-  padding: 0 0 17px 0;
+  padding: 0;
+  font-family: "Catamaran", sans-serif;
 }
 
 .section-text {
@@ -27,13 +30,15 @@ body {
   font-style: italic;
   text-align: center;
   margin: 0;
-  padding: 0 0 54px 0;
+  padding: 0 0 60px 0;
+  color: #949494;
 }
 
 .box-title {
-  font-size: 16px;
-  margin: 20px 0 16px 0;
+  font-size: 18px;
+  margin: 20px 0 10px 0;
   padding: 0;
+  font-family: "Catamaran", sans-serif;
 }
 
 /* Splash */
@@ -87,10 +92,11 @@ body {
   font-size: 14px;
   padding: 0 40px 0 0;
   color: #ffffff;
+  font-family: "Catamaran", sans-serif;
 }
 
 .splash .logo {
-  color: #fed136;
+  color: #FFD337;
   font-size: 26px;
   z-index: 1;
 }
@@ -117,10 +123,12 @@ body {
   margin-bottom: 5px;
   position: relative;
   bottom: 30px;
+  font-family: "Catamaran", sans-serif;
+  font-weight: bold;
 }
 
 .btn {
-  background-color: #fed136;
+  background-color: #FFD337;
   color: #ffffff;
   border-radius: 5px;
   display: inline-block;
@@ -133,6 +141,7 @@ body {
   margin: 24px auto 0 auto;
   padding: 16px;
   text-transform: uppercase;
+  font-family: "Catamaran", sans-serif;
 }
 
 /* Services */
@@ -152,7 +161,7 @@ body {
 }
 
 .service-box p {
-  font-size: 14px;
+  font-size: 13px;
   margin: 0;
   text-align: center;
 }
@@ -160,7 +169,7 @@ body {
 .service-box i {
   text-align: center;
   font-size: 35px;
-  color: #fed136;
+  color: #FFD337;
 }
 
 .service-icon {
@@ -168,7 +177,7 @@ body {
   height: 70px;
   line-height: 70px;
   border-radius: 50%;
-  border: 3px solid #fed136;
+  border: 3px solid #FFD337;
   background-color: #ffffff;
   display: -ms-flexbox;
   display: flex;
@@ -180,4 +189,63 @@ body {
 }
 
 /* Portfolio */
+.portfolio {
+  background-color: #ECECEC;
+}
+
+.portfolio-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 922px;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+  position: relative;
+  -ms-flex: 0 0 33.33%;
+      flex: 0 0 33.33%;
+}
+
+.portfolio-box {
+  min-height: 370px;
+  width: 300px;
+  background-color: #ffffff;
+  margin-bottom: 50px;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.portfolio-image {
+  position: absolute;
+  max-width: 300px;
+  height: 270px;
+}
+
+.portfolio-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio-text {
+  padding: 260px 0 10px 0;
+  margin: 0;
+  text-align: center;
+}
+
+.portfolio-title {
+  padding: 30px 0 0 0;
+  margin: 0;
+  font-family: "Catamaran", sans-serif;
+  color: #303030;
+}
+
+.portfolio-subtext {
+  padding-top: 0;
+  font-style: italic;
+  margin-top: 0;
+  font-size: 12px;
+  color: #949494;
+}
 /*# sourceMappingURL=style.css.map */
