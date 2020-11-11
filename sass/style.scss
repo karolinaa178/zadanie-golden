@@ -1,5 +1,6 @@
 $font-header: 'Catamaran', sans-serif;
 $font-text: 'PT Serif', serif;
+$font-logo: 'Damion', cursive;
 
 $color-one: #FFD337;
 $color-two: #303030;
@@ -91,6 +92,7 @@ body {
     color: $color-one;
     font-size: 26px;
     z-index: 1;
+    font-family: $font-logo;
 }
 .header {
     text-align: center;
@@ -215,3 +217,59 @@ body {
     font-size: 12px;
     color: $color-three;
 }
+
+/*Footer*/
+
+footer .container {
+    margin: 0;
+    padding: 15px;
+  }
+  
+  .footer-wrapper {
+    display: flex;
+    max-width: 850px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  footer p {
+    display: inline-block;
+    font-family: $font-header;
+    color: $color-three;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 290px;
+  }
+  footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+  }
+  footer li {
+    display: inline-block;
+    margin-right: 7px;
+  }
+  
+  footer li:last-child {
+    margin-right: 0;
+  }
+  
+  footer a {
+    text-decoration: none;
+  }
+  
+  .footer-icon-wrapper {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #222222;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .footer-icon-wrapper i {
+    color: white;
+    font-size: 18px;
+  }
