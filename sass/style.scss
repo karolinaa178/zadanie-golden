@@ -227,7 +227,7 @@ footer .container {
   
   .footer-wrapper {
     display: flex;
-    max-width: 850px;
+    max-width: 950px;
     flex-wrap: wrap;
     justify-content: space-between;
   }
@@ -247,11 +247,11 @@ footer .container {
   }
   footer li {
     display: inline-block;
-    margin-right: 7px;
+    margin-right: 5px;
   }
   
   footer li:last-child {
-    margin-right: 0;
+    margin-right: 105px;
   }
   
   footer a {
@@ -295,7 +295,9 @@ footer .container {
       footer .container {
         padding-left: 0;
       }
-    
+      footer li:last-child {
+        margin-right: 0;
+      }
       .navigation {
         flex-direction: column;        
       } 
@@ -346,5 +348,8 @@ footer .container {
     }
     .splash .logo {
         padding-left: 10px;
+    }
+    footer li:last-child {
+      margin-right: 0;
     }
 }
